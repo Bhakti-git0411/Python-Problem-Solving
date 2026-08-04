@@ -22,3 +22,16 @@ while i <= 10:
 n = int(input("Enter a number: "))
 table = [n * i for i in range(1, 11)]
 print(table)
+
+
+# Using function
+
+def factorial(n):
+    fact = 1
+    for i in range(1, n + 1):
+        fact *= i
+    return fact
+
+
+num = int(input("Enter a number: "))
+print("Factorial is:", factorial(num))
