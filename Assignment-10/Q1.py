@@ -11,3 +11,14 @@ while num > 0:
         count += 1
     num = num // 10
 print("Count of even digits:", count)
+
+
+num = input("Enter number: ")
+
+count = 0
+
+for digit in num:
+    if int(digit) % 2 == 0:
+        count += 1
+
+print("Count of even digits:", count)
